@@ -1,0 +1,31 @@
+{
+  "name": "kryptik",
+  "version": "1.0.0",
+  "description": "by **@KrishSkywalker**\r Kryptik is a web app built on Node.JS and has implementations of ciphers and encryption-decryption techniques.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KrishSkywalker/kryptik.git"
+  },
+  "author": "KrishSkywalker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KrishSkywalker/kryptik/issues"
+  },
+  "homepage": "https://github.com/KrishSkywalker/kryptik#readme",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-pug": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.4"
+  }
+}

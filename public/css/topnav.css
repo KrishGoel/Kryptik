@@ -1,0 +1,42 @@
+.topnav {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #0e0744;
+	clear: both;
+	text-align: right;
+	position: fixed;
+	z-index: 1;
+}
+.logo {
+	font-family: 'League Spartan';
+	color: #faf4ef;
+	font-size: 30px;
+	margin-top: 15px;
+	float: left;
+	display: block;
+	padding-right: 20px;
+}
+.topnavScrollMenu {
+	overflow-x: scroll;
+	white-space: nowrap;
+	display: block;
+	background-color: #0e0744;
+	color: #faf4ef;
+	font-family: 'Nunito';
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.topnavScrollMenu::-webkit-scrollbar {
+	display: none;
+}
+.topnavLinks {
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	color: #faf4ef;
+	margin-right: 20px;
+}
+.topnavLinks:hover {
+	font-weight: bold;
+}

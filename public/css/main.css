@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Nunito";
+    src: url("fonts/Nunito.woff") format('woff');
+}
+@font-face {
+    font-family: "League Spartan";
+    src: url("fonts/LeagueSpartan.woff") format('woff');
+}
+body {
+	margin: 0;
+	padding: 0;
+	display: inline;
+	background-color: #faf4ef;
+}
+.widthRestriction {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+}
+.banner {
+	width: 100%;
+	margin-top: 60px;
+}
+.blue {
+	color: #5671f1;
+}
+.darkBlue {
+	color: #0e0744;
+}
+.cream {
+	color: #faf4ef;
+}
+.yellow {
+	color: #ffbd59;
+}
+.pink {
+	color: #f623ce;
+}
+h1 {
+	font-family: 'League Spartan';
+	padding-top: 40px;
+}
+h2 {
+	font-family: 'League Spartan';
+	font-size: 28px;
+}
+.bodyText {
+	font-family: 'Nunito';
+	font-size: 17px;
+}
+img {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+.row {
+	padding-left: 15px;
+	padding-right: 20px;
+}
+.caesarShift, .playfair, .team {
+	background-color: #0e0744;
+}
+input {
+	font-family: 'Nunito';
+	border-radius: 5px;
+	border: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+}
+#caesarShiftMag {
+	width: 55px;
+	margin-right: 10px;
+}
+.submit {
+	text-align: center;
+	margin-top: 10px;
+	padding-bottom:6px;
+	padding-top: 6px;
+	padding-right: 18px;
+	padding-left: 15px;
+}
+.teamNames h2{
+	font-size: 22px;
+}
+@media screen and (max-width: 600px) {
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 22px;
+	}
+	.bodyText {
+		font-size: 15px;
+	}
+}

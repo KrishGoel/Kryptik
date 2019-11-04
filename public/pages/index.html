@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kryptik</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Kryptik is a web app built on Node.JS and has implementations of ciphers and encryption-decryption techniques.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="../css/grid.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/topnav.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  </head>
+  <body>
+    <nav class="topnav">
+      <div class="widthRestriction">
+        <p class="logo">Kryptik</p>
+        <div class="topnavScrollMenu"><a class="topnavLinks" href="#">Caesar shift</a><a class="topnavLinks" href="#">Baconian</a><a class="topnavLinks" href="#">Playfair</a><a class="topnavLinks" href="#">Kwerty</a><a class="topnavLinks" href="#">Team</a></div>
+      </div>
+    </nav><img class="banner" src="../img/banner.png">
+    <section class="intro">
+      <div class="widthRestriction">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="blue" style="padding-top: 0;">Introduction to Enkryption</h1>
+            <p class="bodyText darkBlue">Encryption is the process of using an algorithm to transform information to make it unreadable for unauthorized users.<br><br>The science of encrypting and decrypting information is called cryptography. In computing, unencrypted data is also known as plaintext, and encrypted data is called ciphertext. <br><br>The formulas used to encode and decode messages are called encryption algorithms or ciphers.<br><br><br></p>
+          </div>
+          <div class="col-lg-6"><br><img class="image" src="../img/introGraphic.jpg"></div>
+        </div>
+      </div>
+    </section>
+    <section class="caesarShift"><br>
+      <div class="widthRestriction">
+        <h1 class="cream">Caesar shift</h1>
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="yellow">Working</h2>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="pink">Implementation</h2>
+            <input class="input" id="caesarShiftMag" type="text" placeholder="Shift">
+            <input class="input" id="caesarShiftString" type="text" placeholder="String"><br>
+            <p class="cream bodyText output" id="caesarShiftFinal"></p><br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="baconian">
+      <div class="widthRestriction">
+        <h1 class="darkBlue">Baconian cipher</h1>
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="yellow">Working</h2>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="pink">Implementation</h2>
+            <input class="input" id="baconianString" type="text" placeholder="String"><br>
+            <p class="darkBlue bodyText" id="baconianCipherOutput"></p><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="playfair"><br>
+      <div class="widthRestriction">
+        <h1 class="cream">Playfair</h1>
+        <div class="row">
+          <div class="col-lg-7">
+            <h2 class="yellow">Working</h2>
+          </div>
+          <div class="col-lg-5">
+            <h2 class="pink">Implementation</h2>
+            <input class="input" id="playfairKeySqaureInput" type="text" placeholder="Key"><br>
+            <input class="input" id="playfairEncryptInput" type="text" placeholder="Encrypt">
+            <input class="input" id="playfairDecryptInput" type="text" placeholder="Decrypt">
+            <p class="bodyText cream" id="playfairEncryptedOutput">Encrypted Text:</p>
+            <p class="bodyText cream" id="playfairDecryptedOutput">Decrypted Text:</p><br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="baconian">
+      <div class="widthRestriction">
+        <h1 class="darkBlue">Kwerty cipher</h1>
+        <div class="row">
+          <div class="col-lg-6">
+            <h2 class="yellow">Working</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="team"><br>
+      <div class="widthRestriction">
+        <h1 class="cream">The team</h1>
+        <div class="row">
+          <div class="col-lg-6"><br><img class="image" src="../img/team.jpg" style="float: left;"></div>
+          <div class="col-lg-6">
+            <div class="teamNames">
+              <h2 class="pink">Ananya Choubey</h2>
+              <h2 class="yellow">Jayani Tripathi</h2>
+              <h2 class="blue">Krish Goel</h2>
+              <h2 class="pink">Raghav Sarangi</h2>
+              <h2 class="yellow">Srishti Srinivas</h2>
+            </div><br><br><br><br>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bottomLine"><br>
+      <div class="widthRestriction">
+        <p class="bodyText darkBlue" style="margin: 0; padding: 0; text-align: center;">❤️ Made with love by <strong><a class="darkBlue" href="https://github.com/KrishSkywalker" style="text-decoration: none;">KrishSkywalker</a></strong></p><br>
+      </div>
+    </section>
+  </body>
+  <script src="../js/scripts.js"></script>
+</html>
