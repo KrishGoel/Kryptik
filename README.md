@@ -20,7 +20,6 @@ Make sure you have
 The dependencies used are - 
 
 - Pug.js (Earlier known as Jade) as the pre-processor for HTML
-- Stylus as a pre-processor for CSS
 - Gulp.js as the streaming build system
 
 ### Kredits and appreciation
@@ -28,6 +27,3 @@ We'd like to thank the following people for helping us out with Kryptik
 
 - [stripedpajamas]("https://github.com/stripedpajamas/playfair") for the JS implementation of the Playfair cipher
 - [MattC.K]("https://codepen.io/MattCK/pen/OyQyxE?editors=1010") for the JS/JQuery implementation of the Caesar Shift cipher
-
-##### Note
-Update Stylus files after completion
