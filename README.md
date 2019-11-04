@@ -25,5 +25,5 @@ The dependencies used are -
 ### Kredits and appreciation
 We'd like to thank the following people for helping us out with Kryptik
 
-- [stripedpajamas]("https://github.com/stripedpajamas/playfair") for the JS implementation of the Playfair cipher
+- [stripedpajamas] ("https://github.com/stripedpajamas/playfair") for the JS implementation of the Playfair cipher
 - [MattC.K]("https://codepen.io/MattCK/pen/OyQyxE?editors=1010") for the JS/JQuery implementation of the Caesar Shift cipher
