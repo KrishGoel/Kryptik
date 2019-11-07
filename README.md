@@ -27,3 +27,17 @@ We'd like to thank the following people for helping us out with Kryptik
 
 - [stripedpajamas](https://github.com/stripedpajamas/playfair) for the JS implementation of the Playfair cipher
 - [MattC.K](https://codepen.io/MattCK/pen/OyQyxE?editors=1010) for the JS/JQuery implementation of the Caesar Shift cipher
+
+### Notes for Raghav
+- Install Sublime T3, Git, Node.JS and npm
+- Do ```git clone https://github.com/KrishSkywalker/Kryptik.git```
+- Go to ```User/Raghav/Kryptik```
+- Open Command Prompt **IN THE DIRECTORY** 
+- Run ```npm install``` 
+- Go to ```views/includes```
+- Open the section you wanna edit in Sublime T3
+- Edit whatever you want to
+- Save
+- Go back to CLI
+- Run ```gulp js``` and ```gulp pug```
+- Go to ```public/pages/index.html```, the changes should be there
