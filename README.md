@@ -28,7 +28,7 @@ We'd like to thank the following people for helping us out with Kryptik
 - [stripedpajamas](https://github.com/stripedpajamas/playfair) for the JS implementation of the Playfair cipher
 - [MattC.K](https://codepen.io/MattCK/pen/OyQyxE?editors=1010) for the JS/JQuery implementation of the Caesar Shift cipher
 
-### Notes for Raghav
+### Notes for [Raghav](Nigger.com)
 - Install Sublime T3, Git, Node.JS and npm
 - Do ```git clone https://github.com/KrishSkywalker/Kryptik.git```
 - Go to ```User/Raghav/Kryptik```
