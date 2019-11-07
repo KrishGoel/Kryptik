@@ -29,7 +29,7 @@ We'd like to thank the following people for helping us out with Kryptik
 - [MattC.K](https://codepen.io/MattCK/pen/OyQyxE?editors=1010) for the JS/JQuery implementation of the Caesar Shift cipher
 
 ### Notes for [Raghav](https://nigger.com) (Don't judge please, he's really dum dum)
-- Install Sublime T3, Git, Node.JS and npm
+- Install Sublime T3, Git and Node.JS
 - Run ```$ git clone https://github.com/KrishSkywalker/Kryptik.git```
 - Go to ```User/Raghav/Kryptik```
 - Open Command Prompt **IN THE DIRECTORY** 
